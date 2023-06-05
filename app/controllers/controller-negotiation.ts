@@ -20,7 +20,6 @@ export class ControllerNegotiation { /*negociation class*/
     console.log(this.negociacoes.listNegoc());
     this.cleanForm();
   }
-
   createNegoc(): Negotiation {
     const exp = /-/g;
     const date = new Date(this.inputData.value.replace(exp, ",")); //transform 9999-99-99 string in date replacing - by ,
