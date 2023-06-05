@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "outDir": "dist/js",
+    "target": "ES6",
+    "noEmitOnError": true,
+    "noImplicitAny": true //no atribute type any automatically
+  },
+  "include": ["app/**/*", "dist/js/models/negociacao.ts"]
+}
